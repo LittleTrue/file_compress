@@ -1,0 +1,32 @@
+{
+    "name": "gxz/file_handle",
+    "type": "library",
+    "keywords": [
+        "file_handle",
+        "file",
+        "handle"
+    ],
+    "authors": [
+        {
+            "name": "littleTrue",
+            "email": "644812368@qq.com",
+            "homepage": "https://www.jianshu.com/u/8775ddf16c8b"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.6",
+        "adbario/php-dot-notation": "^2.0",
+        "pimple/pimple": "v2.1.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "file\\FileHandleClient\\": "src/client/",
+            "file\\FileHandleService\\": "src/service/",
+            "file\\": "src/"
+        }
+    }
+}
